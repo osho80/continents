@@ -1,0 +1,43 @@
+
+.continents-preview {
+    width: 100%;
+    .continents-table {
+        margin: auto;
+        font-size: xx-large;
+        border: 1px solid blue;
+        padding: 2rem;
+        .continent-row {
+            cursor: pointer;
+            &:hover {
+                color: darkmagenta;
+            }
+        }
+    }
+}
+
+.country-list {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    .back-btn {
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: -5vw;
+        cursor: pointer;
+    }
+}
+.country-preview {
+    margin: 1rem;
+    width: 400px;
+    height: 330px;
+    .country-heading {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 30px;
+        
+    }
+    
+}
+
